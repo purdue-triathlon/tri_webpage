@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purdue Triathlon Club Swim Workout Archive</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #333;
+            transition: border-bottom 0.3s;
+        }
+
+        a:hover {
+            border-bottom: 1px solid #007BFF;
+        }
+
+        select {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Purdue Triathlon Club Swim Workout Archive</h1>
+    <p><a href="http://purduetriathlon.com">Return home</a></p>
+    <h2>Former Swim Captains:</h2>
+    <p>2016-17	Ethan Stelts<br>
+    2017-18	Brian Long<br>
+    2018-19	Brian Long<br>
+    2019-20	Brian Long<br>
+    2020-21	Katalin Kovach<br>
+    2021-22	Katie Smith/Andrew Gray<br>
+    2022-23	Paige Sendmeyer/Maggie Hewson<br>
+    2023-24	Maggie Hewson<br>
+    <br></p>
+    <h2>Contributors:</h2>
+    Andrew Gray (AG)<br>
+    Arianna Werts (AW)<br>
+    Brian Long (BL)<br>
+    Bronson Vann (BV)<br>
+    Maggie Hewson (MH)<br>
+    <br></p>
+    <h2>Workout Archive</h2>
+    <p>Tag format: Date (YYMMDD), followed by a period and the initials of the author, followed by workout description</p>
+
+    <label for="sortOption">Sort by:</label>
+      <select id="sortOption" onchange="sortFiles()">
+          <option value="date">Date (Chronological)</option>
+          <option value="reverseDate">Date (Reverse Chronological)</option>
+          <option value="author">Author</option>
+          <option value="description">Workout Description</option>
+      </select>
+
+<br>
+    <label for="authorOption">Filter by Author:</label>
+    <select id="authorOption" onchange="sortFiles()">
+        <option value="all">All Authors</option>
+        <!-- Authors will be dynamically generated here -->
+    </select>
+<br>
+    <label for="descriptionOption">Filter by Workout Description:</label>
+    <select id="descriptionOption" onchange="sortFiles()">
+        <option value="all">All Descriptions</option>
+        <!-- Descriptions will be dynamically generated here -->
+    </select>
+
+    <ul id="fileList">
+        <!-- Files will be dynamically generated here -->
+    </ul>
+
+    <script>
+        // Function to parse the date from the file name (YYMMDD format)
+        function parseDate(fileName) {
+            const dateRegex = /\d{6}/;
+            const match = fileName.match(dateRegex);
+
+            if (match) {
+                const year = match[0].substring(0, 2);
+                const month = match[0].substring(2, 4);
+                const day = match[0].substring(4, 6);
+                return new Date(`20${year}`, month - 1, day); // month is zero-based
+            }
+
+            return null;
+        }
+
+        // Function to parse the author initials from the file name
+        function parseAuthor(fileName) {
+            const authorRegex = /\.\w{2}/;
+            const match = fileName.match(authorRegex);
+
+            return match ? match[0].substring(1) : null;
+        }
+
+        // Function to parse the workout description from the file name
+        function parseDescription(fileName) {
+            const descriptionRegex = /\.\w+\s?(.+)\.pdf/;
+            const match = fileName.match(descriptionRegex);
+        
+            return match ? match[1] : null;
+        }
+
+
+
+        // Array of file names
+        const fileNames = [
+    "220209.AG Sprints.pdf",
+    "220214.AG Distance set.pdf",
+    "220216.AG Variety set.pdf",
+    "220228.AG Fail set.pdf",
+    "220302.AW 200s",
+    "220309.AG Kick-swim sets.pdf",
+    "220307.AG Distance.pdf",
+    "220425.BV Variety set.pdf",
+    "220321.AG Variety set.pdf",
+    "220328.AG Sprints.pdf",
+    "220330.AG Sprints.pdf",
+    "220404.AG Sprints.pdf",
+    "220411.AG Laughter ladder.pdf",
+    "220413.AG Variety set.pdf",
+    "220418.AG Kick set.pdf",
+    "220420.AG Sprints.pdf",
+    "190410.BL Laughter ladder.pdf",
+    "231004.MH breath work.pdf",
+    "231106.MH breathwork and speed change.pdf",
+    "231101.MH strong build ladder.pdf",
+    "231030.MH Halloween Fun Practice.pdf",
+    "231022.MH kick and drill.pdf",
+    "231018.MH controlled fast speed work.pdf",
+    "231016.MH pull and speed focus.pdf",
+    "231015.MH speed change fast.pdf",
+    "231011.MH underwaters.pdf",
+    "230927.MH drill kick speed.pdf",
+    "230925.MH skull and speed change.pdf",
+    "230924.MH group moderate pace practice.pdf",
+    "230920.MH kick focus.pdf",
+    "230913.MH speed change drill.pdf",
+    "230911.MH speed change.pdf",
+    "230910.MH kick and swim drills.pdf",
+    "230905.MH Ladder Speed.pdf",
+    "230831.MH kick with board drills.pdf",
+    "230827.MH Drill Continuous Swim.pdf",
+    "230824.MH First Practice.pdf",
+    "240110.MH Short Distance Drill Focus.pdf",
+    "240108.MH Short Drill Speed.pdf",
+    "231127.MH kick drill.pdf",
+    "231115.MH build drill.pdf",
+    "231113.MH fast hold best average.pdf",
+    "231108.MH short drill speed change.pdf" //you can add new file names to this list just make sure they are in quotes and separated by commas, except the last one.
+];
+
+
+        // Function to get unique authors from the file names
+        function getUniqueAuthors() {
+            const uniqueAuthors = new Set();
+
+            fileNames.forEach(fileName => {
+                const author = parseAuthor(fileName);
+                if (author) {
+                    uniqueAuthors.add(author);
+                }
+            });
+
+            return Array.from(uniqueAuthors);
+        }
+
+        // Function to get unique workout descriptions from the file names
+        function getUniqueDescriptions() {
+            const uniqueDescriptions = new Set();
+
+            fileNames.forEach(fileName => {
+                const description = parseDescription(fileName);
+                if (description) {
+                    uniqueDescriptions.add(description);
+                }
+            });
+
+            return Array.from(uniqueDescriptions);
+        }
+
+        // Function to generate and display the author options
+        function displayAuthors() {
+            const authorOptionElement = document.getElementById('authorOption');
+            authorOptionElement.innerHTML = '';
+
+            const uniqueAuthors = getUniqueAuthors();
+
+            // Add "All Authors" option
+            authorOptionElement.innerHTML += '<option value="all">All Authors</option>';
+
+            uniqueAuthors.forEach(author => {
+                authorOptionElement.innerHTML += `<option value="${author}">${author}</option>`;
+            });
+        }
+
+        // Function to generate and display the workout description options
+        function displayDescriptions() {
+            const descriptionOptionElement = document.getElementById('descriptionOption');
+            descriptionOptionElement.innerHTML = '';
+
+            const uniqueDescriptions = getUniqueDescriptions();
+
+            // Add "All Descriptions" option
+            descriptionOptionElement.innerHTML += '<option value="all">All Descriptions</option>';
+
+            uniqueDescriptions.forEach(description => {
+                descriptionOptionElement.innerHTML += `<option value="${description}">${description}</option>`;
+            });
+        }
+
+        // Function to generate and display the sorted list
+        function displayFiles(sortedFileNames) {
+            const fileListElement = document.getElementById('fileList');
+            fileListElement.innerHTML = '';
+
+            sortedFileNames.forEach(fileName => {
+                fileListElement.innerHTML += `<li><a href="${fileName}">${fileName.replace('.pdf', '')}</a></li>`;
+            });
+        }
+
+// Function to sort files based on the selected option
+function sortFiles() {
+    const sortOption = document.getElementById('sortOption').value;
+    const selectedAuthor = document.getElementById('authorOption').value;
+    const selectedDescription = document.getElementById('descriptionOption').value;
+
+    const sortedFileNames = fileNames
+        .filter(fileName =>
+            (selectedAuthor === 'all' || parseAuthor(fileName) === selectedAuthor) &&
+            (selectedDescription === 'all' || parseDescription(fileName) === selectedDescription)
+        )
+        .sort((a, b) => {
+            const dateA = parseDate(a);
+            const dateB = parseDate(b);
+            const authorA = parseAuthor(a);
+            const authorB = parseAuthor(b);
+            const descriptionA = parseDescription(a);
+            const descriptionB = parseDescription(b);
+
+            if (sortOption === 'date') {
+                if (dateA && dateB) {
+                    return dateA - dateB;
+                }
+            } else if (sortOption === 'reverseDate') {
+                if (dateA && dateB) {
+                    return dateB - dateA;
+                }
+            } else if (sortOption === 'author') {
+                if (authorA && authorB) {
+                    return authorA.localeCompare(authorB);
+                }
+            } else if (sortOption === 'description') {
+                // Combine raw description and filename for sorting
+                const combinedA = `${descriptionA} - ${a}`;
+                const combinedB = `${descriptionB} - ${b}`;
+                return combinedA.localeCompare(combinedB, undefined, { sensitivity: 'base' });
+            }
+
+            // If parsing fails or the option is not recognized, maintain the original order
+            return 0;
+        });
+
+    displayFiles(sortedFileNames);
+}
+
+        // Initial display sorted by date and with author options
+        displayAuthors();
+        displayDescriptions();
+        sortFiles();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purdue Triathlon Club Swim Workout Archive</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #333;
+            transition: border-bottom 0.3s;
+        }
+
+        a:hover {
+            border-bottom: 1px solid #007BFF;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Purdue Triathlon Club Swim Workout Archive</h1>
+    <h2>Former Swim Captains:</h2>
+    <p>2016-17	Ethan Stelts<br>
+    2017-18	Brian Long<br>
+    2018-19	Brian Long<br>
+    2019-20	Brian Long<br>
+    2020-21	Katalin Kovach<br>
+    2021-22	Katie Smith/Andrew Gray<br>
+    2022-23	Paige Sendmeyer/Maggie Hewson<br>
+    2023-24	Maggie Hewson<br>
+    <br></p>
+    <h2>Contributors:</h2>
+    Andrew Gray (AG)<br>
+    Arianna Werts (AW)<br>
+    Bronson Vann (BV)<br>
+    <br></p>
+    <h2>Workout Archive</h2>
+    <p>Workout tag format: Date (YYMMDD) followed by the initials of the author</p>
+
+    <script>
+        // Function to parse the date from the file name
+        function parseDate(fileName) {
+          //  const dateRegex = /\d{1,2}_\d{1,2}_\d{2}/; this line was for MMDDYY
+            const dateRegex = /\d{6}/; //this line is for YYMMDD
+            const match = fileName.match(dateRegex);
+
+         /*   if (match) {
+                const [month, day, year] = match[0].split('_');
+                return new Date(`20${year}`, month - 1, day); // month is zero-based
+            } //this section is for MMDDYY
+         */   
+            if (match) {
+                const year = match[0].substring(0, 2);
+                const month = match[0].substring(2, 4);
+                const day = match[0].substring(4, 6);
+                return new Date(`20${year}`, month - 1, day); // month is zero-based
+            } //this section is for YYMMDD
+
+            return null;
+        }
+
+        // Array of file names
+        const fileNames = [
+         /*   "Swim Practice 4_18_22 kick set.pdf",
+            "Swim Practice 3_21_22.pdf",
+            "Swim Practice 4_20_22.pdf",
+            "Swim Practice 2_9_22.pdf",
+            "Swim Practice 2_14_22.pdf",
+            "Swim Practice 2_16_22.pdf",
+            "Swim Practice 2_28_22.pdf",
+            "Swim Practice 3_2_22.pdf",
+            "Swim Practice 3_7_22.pdf",
+            "Swim Practice 3_9_22.pdf",
+            "Swim Practice 3_23_22.pdf",
+            "Swim Practice 3_28_22.pdf",
+            "Swim Practice 3_30_22.pdf",
+            "Swim Practice 4_4_22.pdf",
+            "Swim Practice 4_11_22 Laughter Ladders.pdf",
+            "Swim Practice 4_13_22.pdf" */
+            "220209.AG sprints.pdf",
+            "220214.AG Distance set.pdf",
+            "220216.AG Variety set.pdf",
+            "220228.AG Fail set.pdf"
+            //you can add the new files here in this format and js will sort by dates
+        ];
+
+        // Sort the file names based on dates
+        const sortedFileNames = fileNames.sort((a, b) => {
+            const dateA = parseDate(a);
+            const dateB = parseDate(b);
+
+            if (dateA && dateB) {
+                return dateA - dateB;
+            }
+
+            // If parsing fails, maintain the original order
+            return 0;
+        });
+
+        // Display the sorted list
+        document.write('<ul>');
+        sortedFileNames.forEach(fileName => {
+            document.write(`<li><a href="${fileName}">${fileName.replace('.pdf', '')}</a></li>`);
+        });
+        document.write('</ul>');
+    </script>
+
+</body>
+</html>
