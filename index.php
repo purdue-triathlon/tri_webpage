@@ -156,53 +156,55 @@
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/speakers/ari" alt="Speaker 1" class="img-fluid">
+              <img src="assets/img/speakers/maggie.jpeg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="#speakers">Arianna Werts</a></h3>
-                <p>President</p>
+                <h3><a href="#speakers">Maggiew Hewson</a></h3>
+                <p>President & Swim Captain</p>
                 <div class="social">
-                  <a href="https://www.strava.com/athletes/46419671"><i class="bi bi-strava"></i></a>
-                  <a href="https://instagram.com/arianna.j.w/"><i class="bi bi-instagram"></i></a>
-                  <a href="mailto:awerts@purdue.edu"><i class="bi bi-envelope"></i></a>
+                  <!--This is a comment. Comments are not displayed in the browser-->
+                  <!-- <a href="https://www.strava.com/athletes/46419671"><i class="bi bi-strava"></i></a> -->
+                  <!-- <a href="https://instagram.com/arianna.j.w/"><i class="bi bi-instagram"></i></a> -->
+                  <a href="mailto:hewsonm@purdue.edu"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/becca" alt="Speaker 2" class="img-fluid">
+              <img src="assets/img/speakers/kate.jpeg" alt="Speaker 2" class="img-fluid">
               <div class="details">
-                <h3><a href="#speakers">Becca Jennings</a></h3>
-                <p>Vice President & Women's Captain</p>
+                <h3><a href="#speakers">Kate Hutzel</a></h3>
+                <p>Vice President</p>
                 <div class="social">
-                  <a href="https://www.strava.com/athletes/99359848"><i class="bi bi-strava"></i></a>
-                  <a href="https://www.instagram.com/b.jennings02"><i class="bi bi-instagram"></i></a>
-                  <a href="mailto:jennin56@purdue.edu"><i class="bi bi-envelope"></i></a>
+                  <a href="https://www.strava.com/athletes/108038604"><i class="bi bi-strava"></i></a>
+                  <!-- <a href="https://www.instagram.com/b.jennings02"><i class="bi bi-instagram"></i></a> -->
+                  <a href="mailto:khutzel@purdue.edu"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/speakers/alec" alt="Speaker 3" class="img-fluid">
+              <img src="assets/img/speakers/seth.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="https://www.instagram.com/ap.elite.tri/">Alec Patterson</a></h3>
-                <p>Treasurer, Head Captain, & Co-Run Captain</p>
+                <h3><a href="#speakers">Seth Wilson</a></h3>
+                <p>Treasurer & Co-Bike Captain</p>
                 <div class="social">
-                  <a href="mailto:aspatter@purdue.edu"><i class="bi bi-envelope"></i></a>
+                  <a href="mailto:Wils1214@purdue.edu"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
             </div>
           </div> 
-         <div class="col-lg-4 col-md-6">
-            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/maggie" alt="Speaker 5" class="img-fluid">
+  
+          
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/speakers/pat1.jpeg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="#speakers">Maggie Hewson</a></h3>
-                <p>Swim Captain</p>
+                <h3><a href="#speakers">Riley Meredith</a></h3>
+                <p>Race Director</p>
                 <div class="social">
-                  <a href="https://instragam.com/maggie_hewson16/"><i class="bi bi-instagram"></i></a>
-                  <a href="mailto:hewsonm@purdue.edu"><i class="bi bi-envelope"></i></a>
+                  <a href="mailto:rkmeredi@purdue.edu"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
             </div>
@@ -210,20 +212,7 @@
           
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/colby" alt="Speaker 5" class="img-fluid">
-              <div class="details">
-                <h3><a href="#speakers">Colby Hertle</a></h3>
-                <p>Race Director & Bike Captain</p>
-                <div class="social">
-                  <a href="mailto:chertle@purdue.edu"><i class="bi bi-envelope"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>    
-          
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/drew" alt="Speaker 5" class="img-fluid">
+              <img src="assets/img/speakers/drew.jpeg" alt="Speaker 2" class="img-fluid">
               <div class="details">
                 <h3><a href="#speakers">Drew Nelson</a></h3>
                 <p>Co-Run Captain</p>
@@ -235,23 +224,10 @@
             </div>
           </div>  
 
-<div class="col-lg-4 col-md-6">
-            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/speakers/george" alt="Speaker 6" class="img-fluid">
-              <div class="details">
-                <h3><a href="https://matias.ma/nsfw/">George Limberakis</a></h3>
-                <p>Social Director & Strength Captain</p>
-                <div class="social">
-                  <a href="https://www.strava.com/athletes/57486023"><i class="bi bi-strava"></i></a>
-                  <a href="mailto:glimbera@purdue.edu"><i class="bi bi-envelope"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
           
            <div class="col-lg-4 col-md-6">
-            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/andrew" alt="Speaker 5" class="img-fluid">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/speakers/andrew.jpeg" alt="Speaker 3" class="img-fluid">
               <div class="details">
                 <h3><a href="https://web.ics.purdue.edu/~gray197">Andrew Gray</a></h3>
                 <p>Webmaster & Digital Media</p>
@@ -262,15 +238,17 @@
                 </div>
               </div>
             </div>
-          </div>             
+          </div>
+
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/speakers/kate" alt="Speaker 4" class="img-fluid">
+              <img src="assets/img/speakers/kate.jpeg" alt="Speaker 1" class="img-fluid">
               <div class="details">
-                <h3><a href="#speakers">Kate Hutzel</a></h3>
-                <p>Social Media Coordinator</p>
+                <h3><a href="#speakers">Ruth Hall</a></h3>
+                <p>Social Media Coordinator & Co-Run Captain</p>
                 <div class="social">
-                  <a href="mailto:khutzel@purdue.edu"><i class="bi bi-envelope"></i></a>
+                  <a href="mailto:hall780@purdue.edu"><i class="bi bi-envelope"></i></a>
+                  <a href="https://m.youtube.com/watch?v=dQw4w9WgXcQ"><i class ="bi bi-strava"></i></a>
                 </div>
               </div>
             </div>
@@ -278,7 +256,7 @@
           
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/stella" alt="Speaker 5" class="img-fluid">
+              <img src="assets/img/speakers/stella.jpeg" alt="Speaker 2" class="img-fluid">
               <div class="details">
                 <h3><a href="#speakers">Stella Fleming</a></h3>
                 <p>Diversity, Equity, Inclusion, & Access Officer</p>
@@ -292,39 +270,25 @@
           </div> 
           
           <div class="col-lg-4 col-md-6">
-            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/ally" alt="Speaker 5" class="img-fluid">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/speakers/pat1.jpeg" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="#speakers">Ally Pickering</a></h3>
+                <h3><a href="#speakers">Lily Rascher</a></h3>
                 <p>Alumni Engagement Officer</p>
                 <div class="social">
-                  <a href="https://www.strava.com/athletes/alyson_pickering"><i class="bi bi-strava"></i></a>
-                  <a href="https://www.instagram.com/allypick_/"><i class="bi bi-instagram"></i></a>
-                  <a href="mailto:pickera@purdue.edu"><i class="bi bi-envelope"></i></a>
+                  
                 </div>
               </div>
             </div>
           </div> 
+              
           
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/bronson" alt="Speaker 5" class="img-fluid">
-              <div class="details">
-                <h3><a href="#https://m.youtube.com/watch?v=dQw4w9WgXcQ">Bronson Vann</a></h3>
-                <p>Fundraising Officer</p>
-                <div class="social">
-                  <a href="mailto:bevann@purdue.edu"><i class="bi bi-envelope"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>       
-          
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/brayden" alt="Speaker 5" class="img-fluid">
+              <img src="assets/img/speakers/brayden.jpeg" alt="Speaker 1" class="img-fluid">
               <div class="details">
                 <h3><a href="#speakers">Brayden Walters</a></h3>
-                <p>Travel Coordinator</p>
+                <p>Travel Coordinator & Fundraising Officer & Sponsorship Coordinator & Co-Bike Captain</p>
                 <div class="social">
                   <a href="www.strava.com/athletes/brayden_walters"><i class="bi bi-strava"></i></a>
                   <a href="mailto:walte239@purdue.edu"><i class="bi bi-envelope"></i></a>
@@ -335,18 +299,29 @@
           
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/diego" alt="Speaker 5" class="img-fluid">
+              <img src="assets/img/speakers/pat1.jpeg" alt="Speaker 2" class="img-fluid">
               <div class="details">
-                <h3><a href="#speakers">Diego Taboada-Cross</a></h3>
+                <h3><a href="#speakers">Olivia Baczek </a></h3>
                 <p>Safety Officer</p>
                 <div class="social">
-                  <a href="https://www.strava.com/athletes/diego_cross"><i class="bi bi-strava"></i></a>
-                  <a href="mailto:diego.taboadacross@gmail.com"><i class="bi bi-envelope"></i></a>
-                  <a href="https://instagram.com/diegoooo_tc"><i class="bi bi-instagram"></i></a>
+                  <a href="mailto:obaczek@purdue.edu"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
             </div>
-          </div>          
+          </div>       
+          
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/speakers/pat1.jpeg" alt="Speaker 3" class="img-fluid">
+              <div class="details">
+                <h3><a href="#speakers">Patton Courie</a></h3>
+                <p>Co-Run Captain</p>
+                <div class="social">
+                  <a href="mailto:patton@courie.com"><i class="bi bi-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> 
 
           
           
