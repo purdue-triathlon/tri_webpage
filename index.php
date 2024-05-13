@@ -347,6 +347,19 @@
             </div>
           </div> 
 
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/speakers/purduetri.png" alt="Speaker 3" class="img-fluid">
+              <div class="details">
+                <h3><a href="#speakers">K.J Jackson-Dietzer</a></h3>
+                <p>Social Events Coordinator</p>
+                <div class="social">
+                  <a href="mailto:mrkaden7@gmail.com"><i class="bi bi-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> 
+
           
           
         </div>
