@@ -199,7 +199,7 @@
           
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/speakers/pat1.jpeg" alt="Speaker 1" class="img-fluid">
+              <img src="assets/img/speakers/purduetri.png" alt="Speaker 1" class="img-fluid">
               <div class="details">
                 <h3><a href="#speakers">Riley Meredith</a></h3>
                 <p>Race Director</p>
@@ -227,14 +227,25 @@
           
            <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/speakers/andrew.jpeg" alt="Speaker 3" class="img-fluid">
+              <img src="assets/img/speakers/dennis.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
-                <h3><a href="https://web.ics.purdue.edu/~gray197">Andrew Gray</a></h3>
-                <p>Webmaster & Digital Media</p>
+                <h3><a href="#speakers">Dennis Hsieh</a></h3>
+                <p>Webmaster</p>
                 <div class="social">
-                  <a href="https://www.strava.com/athletes/68637880"><i class="bi bi-strava"></i></a>
-                  <a href="http://instagram.com/andrew.915"><i class="bi bi-instagram"></i></a>
-                  <a href="mailto:gray197@purdue.edu"><i class="bi bi-envelope"></i></a>
+                  <a href="mailto:hsieh65@purdue.edu"><i class="bi bi-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/speakers/evan.png" alt="Speaker 3" class="img-fluid">
+              <div class="details">
+                <h3><a href="#speakers">Evan Zimmerman</a></h3>
+                <p>Webmaster</p>
+                <div class="social">
+                  <a href="mailto:evman142@gmail.com"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
             </div>
@@ -242,7 +253,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/speakers/kate.jpeg" alt="Speaker 1" class="img-fluid">
+              <img src="assets/img/speakers/ruth.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
                 <h3><a href="#speakers">Ruth Hall</a></h3>
                 <p>Social Media Coordinator & Co-Run Captain</p>
@@ -256,7 +267,7 @@
           
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/stella.jpeg" alt="Speaker 2" class="img-fluid">
+              <img src="assets/img/speakers/purduetri.png" alt="Speaker 2" class="img-fluid">
               <div class="details">
                 <h3><a href="#speakers">Stella Fleming</a></h3>
                 <p>Diversity, Equity, Inclusion, & Access Officer</p>
@@ -271,7 +282,7 @@
           
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/speakers/pat1.jpeg" alt="Speaker 3" class="img-fluid">
+              <img src="assets/img/speakers/purduetri.png" alt="Speaker 3" class="img-fluid">
               <div class="details">
                 <h3><a href="#speakers">Lily Rascher</a></h3>
                 <p>Alumni Engagement Officer</p>
@@ -299,7 +310,7 @@
           
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/pat1.jpeg" alt="Speaker 2" class="img-fluid">
+              <img src="assets/img/speakers/olivia.png" alt="Speaker 2" class="img-fluid">
               <div class="details">
                 <h3><a href="#speakers">Olivia Baczek </a></h3>
                 <p>Safety Officer</p>
@@ -318,6 +329,19 @@
                 <p>Co-Run Captain</p>
                 <div class="social">
                   <a href="mailto:patton@courie.com"><i class="bi bi-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> 
+
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/speakers/izzy.png" alt="Speaker 3" class="img-fluid">
+              <div class="details">
+                <h3><a href="#speakers">Izzy Waren</a></h3>
+                <p>Clothing Coordinator</p>
+                <div class="social">
+                  <a href="mailto:iwaren@purdue.edu"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
             </div>
