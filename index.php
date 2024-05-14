@@ -199,7 +199,7 @@
           
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/speakers/purduetri.png" alt="Speaker 1" class="img-fluid">
+              <img src="assets/img/speakers/riley.jpg" alt="Speaker 1" class="img-fluid">
               <div class="details">
                 <h3><a href="#speakers">Riley Meredith</a></h3>
                 <p>Race Director</p>
@@ -230,7 +230,7 @@
               <img src="assets/img/speakers/dennis.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
                 <h3><a href="#speakers">Dennis Hsieh</a></h3>
-                <p>Webmaster</p>
+                <p>Boilerman Registration</p>
                 <div class="social">
                   <a href="mailto:hsieh65@purdue.edu"><i class="bi bi-envelope"></i></a>
                 </div>
@@ -374,7 +374,7 @@
 
         <div class="section-header">
           <h2>Boilerman Triathlon</h2>
-          <p>Visit the Boilerman website <a href="https://web.ics.purdue.edu/~gray197/PurdueTriathlon/Boilerman" target="_blank" rel="noopener noreferrer">here</a>.</p>
+          <p>Visit the Boilerman website <a href="https://web.ics.purdue.edu/~triclub/Boilerman/" target="_blank" rel="noopener noreferrer">here</a>.</p>
         </div>
 
         <div class="row g-0">
@@ -386,7 +386,7 @@
             <div class="row justify-content-center">
               <div class="col-11 col-lg-8 position-relative">
                 <h3>Lake Freeman, Indiana</h3>
-                <p>Boilerman is an annual Olympic distance triathlon hosted by Purdue Triathlon Club in Monticello, IN (for 2022). Boilerman is open to all individuals 18 years of age or older and also serves as the Mid-East Collegiate Conference (MECTC) conference championship.</p>
+                <p>Boilerman is an annual Olympic distance triathlon hosted by Purdue Triathlon Club in Monticello, IN (for 2024). Boilerman is open to all individuals 18 years of age or older and also serves as the Mid-East Collegiate Conference (MECTC) conference championship.</p>
               </div>
             </div>
           </div>
@@ -470,7 +470,7 @@
                 <img src="assets/img/hotels/3.jpg" alt="Hotel 3" class="img-fluid">
               </div>
               <h3><a target="blank" rel="noopener noreferrer" href="https://www.usatrichamps.com/">Collegiate Nationals</a></h3>
-              <p>2024 Location TBD</p>
+              <p>2025 Location TBD</p>
             </div>
           </div>
           

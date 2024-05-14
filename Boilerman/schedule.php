@@ -15,7 +15,7 @@
         <div class="section-header">
           <h2>Schedule</h2>
           <h4><center>*Schedule is subject to change, please check this page for the most updated times.*</center></h4>
-          <h4><center>(Updated 8/16/23)</center></h4>
+          <!-- <h4><center>(Updated 8/16/23)</center></h4> -->
         </div>
 
 
@@ -31,8 +31,8 @@
             
             <p>**All times listed are in the US Eastern time zone, which is the same time zone as West Lafayette and Monticello.**</p>
             
-              <h2>Saturday, September 16th, 2023</h2>
-              <h3>Packet Pickup</h3>
+              <h2>Saturday, September 26th, 2024</h2>
+              <!-- <h3>Packet Pickup</h3>
               <p>Pick up your packet on Saturday to speed up your check-in on Sunday morning!</p>
               <p>Complimentary bike inspections are availiable at packet pickup. Please see more information in the participant's guide (coming soon).</p?
               <br>
@@ -40,14 +40,14 @@
               <p>*Packet Pickup times are subject to change! Please check this website (refresh the page) before packet pickup to confirm the times.*
               <br>
               <p><i>Location: Hodson’s Bay Company Bike Shop</i></p>
-              <p>360 Brown St., West Lafayette, IN 47906</p>
+              <p>360 Brown St., West Lafayette, IN 47906</p> -->
               
               
               <br><br>
               
-              <h2>Sunday, October September 17th, 2023</h2>
+              <h2>Sunday, October September 27th, 2024</h2>
               
-              <h3>6:45 AM</h3>
+              <!-- <h3>6:45 AM</h3>
               <p>Parking Lot Opens</p>
               <br>
               
@@ -96,7 +96,7 @@
               
               <h3>1:20 PM</h3>
               <p>Awards Ceremony</p>
-              <p><i>Location: Race Hub (Boat Ramp)</i></p>
+              <p><i>Location: Race Hub (Boat Ramp)</i></p> -->
 
 
             </div>

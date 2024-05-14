@@ -47,12 +47,12 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto" href="https://web.ics.purdue.edu/~gray197/PurdueTriathlon" target="_blank" rel="noopener noreferrer">Purdue Tri Club Home</a></li>
-          <li><a class="nav-link scrollto" href="index">Boilerman Triathlon Home</a></li>
-          <li><a class="nav-link scrollto" href="schedule">Schedule</a></li>
-          <li><a class="nav-link scrollto" href="maps">Course Maps</a></li>
-          <li><a class="nav-link scrollto" href="faqs">FAQs & Policies</a></li>
-          <li><a class="nav-link scrollto" href="gallery">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="results">Race Results</a></li>
+          <li><a class="nav-link scrollto" href="index.php">Boilerman Triathlon Home</a></li>
+          <li><a class="nav-link scrollto" href="schedule.php">Schedule</a></li>
+          <li><a class="nav-link scrollto" href="maps.php">Course Maps</a></li>
+          <li><a class="nav-link scrollto" href="faqs.php">FAQs & Policies</a></li>
+          <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="results.php">Race Results</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
