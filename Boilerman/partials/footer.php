@@ -34,16 +34,16 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              Colby Hertle, Race Director<br>
-              <strong>Email:</strong> chertle@purdue.edu<br><br>
-              Andrew Gray, Registration<br>
-              <strong>Email:</strong> gray197@purdue.edu<br><br>
+              Riley Meredith, Race Director<br>
+              <strong>Email:</strong> rkmeredi@purdue.edu<br><br>
+              Dennis Hsieh/Evan Zimmerman, Registration<br>
+              <strong>Email:</strong> hsieh65@purdue.edu/evman142@gmail.com<br><br>
               View the FAQs <a href="faqs">here</a>.<br>
             </p>
 
             <div class="social-links">
-              <a href="https://twitter.com/purduetriathlon?lang=en" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="https://www.facebook.com/purduetriathlon/" class="facebook"><i class="bi bi-facebook"></i></a>
+              <!-- <a href="https://twitter.com/purduetriathlon?lang=en" class="twitter"><i class="bi bi-twitter"></i></a> -->
+              <!-- <a href="https://www.facebook.com/purduetriathlon/" class="facebook"><i class="bi bi-facebook"></i></a> -->
               <a href="https://www.instagram.com/purdue_triathlon/?hl=en" class="instagram"><i class="bi bi-instagram"></i></a>
               <a href="https://www.strava.com/clubs/8497" class="strava"><i class="bi bi-strava"></i></a>
             </div>
