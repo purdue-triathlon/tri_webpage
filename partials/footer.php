@@ -36,8 +36,8 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              Arianna Werts, Club President <br>
-              <strong>Email:</strong> awerts@purdue.edu<br><br>
+              Maggie Hewson, Club President <br>
+              <strong>Email:</strong> hewsonm@purdue.edu<br><br>
               Email a specific executive <a href="#speakers">here</a> <br>
               or, follow us and reach out on social media
             </p>

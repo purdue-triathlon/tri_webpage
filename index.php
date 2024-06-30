@@ -66,7 +66,7 @@
           <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>Tuesday<br>6:30 - 8:00PM</time></div>
+              <div class="col-md-2"><time>Monday<br>6:30 - 8:00PM</time></div>
               <div class="col-md-10">
                 <h4>Swim Practice</h4>
                 <p>Morgan J. Burke Aquatics Center Comp Pool</p>
@@ -74,7 +74,7 @@
             </div>
             
              <div class="row schedule-item">
-              <div class="col-md-2"><time>Thursday<br>6:30 - 8:00PM</time></div>
+              <div class="col-md-2"><time>Wednesday<br>6:30 - 8:00PM</time></div>
               <div class="col-md-10">
                 <h4>Swim Practice</h4>
                 <p>Morgan J. Burke Aquatics Center Comp Pool</p>
@@ -97,7 +97,7 @@
           <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
 
             <div class="row schedule-item">
-              <div class="col-md-2"><time>Wednesday<br>time TBD</time></div>
+              <div class="col-md-2"><time>Thursday<br>5:00 PM</time></div>
               <div class="col-md-10">
                 <h4>Bike Practice</h4>
                 <p>Meet at Aquatics circle behind Co Rec</p>
@@ -105,7 +105,7 @@
             </div>
             
             <div class="row schedule-item">
-              <div class="col-md-2"><time>Sunday<br>time TBD</time></div>
+              <div class="col-md-2"><time>Sunday<br>1:00 PM</time></div>
               <div class="col-md-10">
                 <h4>Bike Practice</h4>
                 <p>Meet at Aquatics circle behind Co Rec</p>
@@ -120,7 +120,7 @@
 
 
              <div class="row schedule-item">
-              <div class="col-md-2"><time>Monday<br>time TBD</time></div>
+              <div class="col-md-2"><time>Tuesday<br>6:00 PM</time></div>
               <div class="col-md-10">
                 <h4>Run Practice</h4>
                 <p>Co Rec</p>
@@ -128,7 +128,7 @@
             </div>
             
             <div class="row schedule-item">
-              <div class="col-md-2"><time>Saturday<br>time TBD</time></div>
+              <div class="col-md-2"><time>Saturday<br>10:00 AM</time></div>
               <div class="col-md-10">
                 <h4>Run Practice</h4>
                 <p>Co Rec</p>
@@ -449,7 +449,7 @@
               <div class="hotel-img">
                 <img src="assets/img/hotels/1.jpg" alt="Hotel 1" class="img-fluid">
               </div>
-              <h3><a target="blank" rel="noopener noreferrer" href="http://www.trisignup.com/Race/IL/Champaign/TriTheIllini">Tri the Illini</a></h3>
+              <h3><a target="blank" rel="noopener noreferrer" href="http://www.trisignup.com/Race/IL/Champaign/TriTheIllini">Tri the Illini</a></h3>            
               <p>Champaign, Illinois</p>
             </div>
           </div>
@@ -470,7 +470,7 @@
                 <img src="assets/img/hotels/3.jpg" alt="Hotel 3" class="img-fluid">
               </div>
               <h3><a target="blank" rel="noopener noreferrer" href="https://www.usatrichamps.com/">Collegiate Nationals</a></h3>
-              <p>2025 Location TBD</p>
+              <p>2025 Location: Mission Viejo, CA</p>
             </div>
           </div>
           

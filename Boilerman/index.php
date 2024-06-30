@@ -60,22 +60,34 @@
               <p><u>USAT Membership</u></p>
               <p>One-day membership: $15 per person (purchase with your Boilerman registration)</p>
               <p>Annual membership: Price varies by age (purchase on the <a href="https://www.usatriathlon.org/membership" target="_blank" rel=“noopener noreferrer”>USAT website</a>)</p>
+              <p> Online registration will close 9/25. To sign up after 9/25, you must sign up in person and pay with cash.</p>
               <br>
-       <!--       <p><u>Boilerman Registration: Early Bird Pricing</u></p>
-              <p>Collegiate: $65</p>
-              <p>Age Group: $80</p>
-              <p>Relay: $105 per team</p>
-              <br> -->
-       <!--       <p><u>Boilerman Registration: Regular Pricing</u></p>
+              <p><u>Boilerman Registration: Early Bird Pricing (Open to 9/1)</u></p>
               <p>Collegiate: $80</p>
-              <p>Age Group: $95</p>
-              <p>Relay: $120 per team</p>  
-              <br>.  -->
-              <p><u>Boilerman Registration: Weekend-of (in-person registration) Pricing</u></p>
-              <p>Collegiate: $100 (cash only)</p>
-              <p>Age Group: $120 (cash only)</p>
-              <p>Relay: $145 per team (cash only)</p>
+              <p>Age Group: $100</p>
+              <p>Collegiate Relay: $100 per team</p>
+              <p>Age Group Relay: $115 per team </p>
+              <br> 
+              <p><u>Boilerman Registration: Regular Pricing (9/2- 9/22)</u></p>
+              <p>Collegiate: $90</p>
+              <p>Age Group: $105</p>
+              <p>Collegiate Relay: $110 per team</p>
+              <p>Age Group Relay: $125 per team </p>
+              <br>.  
+              <p><u>Boilerman Registration: Week-of (9/23 - 9/25) Pricing</u></p>
+              <p>Collegiate: $120</p>
+              <p>Age Group: $130</p>
+              <p>Collegiate Relay: $130 per team</p>
+              <p>Age Group Relay: $145 per team </p>
+              <br>
+
+              <p><u>Boilerman Registration:  In-person (9/28 & 9/29) Pricing</u></p>
+              <p>Collegiate: $120 (cash only)</p>
+              <p>Age Group: $130 (cash only)</p>
+              <p>Relay: $130 per team (cash only)</p>
+              <p>Age Group Relay: $145 per team (cahs only)
               <p>Please see the <a href="schedule.php">schedule</a> for times. <i>Please bring exact change</i>.</p>
+              <br>
 
             </div>
           </div>
