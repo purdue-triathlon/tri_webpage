@@ -31,7 +31,7 @@
             
             <p>**All times listed are in the US Eastern time zone, which is the same time zone as West Lafayette and Monticello.**</p>
             
-              <h2>Saturday, September 26th, 2024</h2>
+              <h2>Saturday, September 28th, 2024</h2>
               <!-- <h3>Packet Pickup</h3>
               <p>Pick up your packet on Saturday to speed up your check-in on Sunday morning!</p>
               <p>Complimentary bike inspections are availiable at packet pickup. Please see more information in the participant's guide (coming soon).</p?
@@ -45,7 +45,7 @@
               
               <br><br>
               
-              <h2>Sunday, October September 27th, 2024</h2>
+              <h2>Sunday, September 29th, 2024</h2>
               
               <!-- <h3>6:45 AM</h3>
               <p>Parking Lot Opens</p>
