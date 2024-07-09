@@ -162,8 +162,6 @@
                 <p>President & Swim Captain</p>
                 <div class="social">
                   <!--This is a comment. Comments are not displayed in the browser-->
-                  <!-- <a href="https://www.strava.com/athletes/46419671"><i class="bi bi-strava"></i></a> -->
-                  <!-- <a href="https://instagram.com/arianna.j.w/"><i class="bi bi-instagram"></i></a> -->
                   <a href="mailto:hewsonm@purdue.edu"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
@@ -177,7 +175,6 @@
                 <p>Vice President</p>
                 <div class="social">
                   <a href="https://www.strava.com/athletes/108038604"><i class="bi bi-strava"></i></a>
-                  <!-- <a href="https://www.instagram.com/b.jennings02"><i class="bi bi-instagram"></i></a> -->
                   <a href="mailto:khutzel@purdue.edu"><i class="bi bi-envelope"></i></a>
                 </div>
               </div>
@@ -259,7 +256,8 @@
                 <p>Social Media Coordinator & Co-Run Captain</p>
                 <div class="social">
                   <a href="mailto:hall780@purdue.edu"><i class="bi bi-envelope"></i></a>
-                  <a href="https://m.youtube.com/watch?v=dQw4w9WgXcQ"><i class ="bi bi-strava"></i></a>
+                  <!--<a href="https://m.youtube.com/watch?v=dQw4w9WgXcQ"><i class ="bi bi-strava"></i></a> -->
+                  <a href="https://www.strava.com/athletes/114234011"><i class="bi bi-strava"></i></a>
                 </div>
               </div>
             </div>
@@ -329,6 +327,7 @@
                 <p>Co-Run Captain</p>
                 <div class="social">
                   <a href="mailto:patton@courie.com"><i class="bi bi-envelope"></i></a>
+                  <a href="https://m.youtube.com/watch?v=dQw4w9WgXcQ"><i class ="bi bi-strava"></i></a>
                 </div>
               </div>
             </div>
