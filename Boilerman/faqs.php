@@ -136,7 +136,7 @@
                 <div data-bs-toggle="collapse" href="#faq9" class="collapsed question">I have another question! Who can I contact? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
                 <div id="faq9" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    You can email Colby Hertle, the race director at <a href="mailto:chertle@purdue.edu">chertle@purdue.edu</a> or Andrew Gray, the registration coordinator (for registration related questions) at <a href="mailto:gray197@purdue.edu">gray197@purdue.edu</a>.
+                    You can email Riley Meredith, the race director at <a href="mailto:rkmeredi@purdue.edu">rkmeredi@purdue.edu</a>, Evan Zimmerman, registration coordinator at <a href="mailto:zimme127@purdue.edu">zimme127@purdue.edu</a>, or Dennis Hsieh, registration coordinator at <a href="mailto:hsieh65@purdue.edu">hsieh65@purdue.edu</a>.
                   </p>
                 </div>
               </li>              
