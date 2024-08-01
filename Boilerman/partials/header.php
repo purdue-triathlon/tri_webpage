@@ -56,9 +56,9 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-    <!-- <a class="buy-tickets scrollto" href="https://purdue.ca1.qualtrics.com/jfe/form/SV_6MdwLTtf2cXLdCC" target="_blank" rel=“noopener noreferrer”>Register</a> -->
+    <a class="buy-tickets scrollto" href="https://boilerman.netlify.app/register" target="_blank" rel=“noopener noreferrer”>Register</a>
   <!--   <a class="buy-tickets scrollto" href="registration-temp-closed" target="_blank" rel=“noopener noreferrer”>Register</a> -->
-  <a class="buy-tickets scrollto" href="registration-closed" target="_blank" rel=“noopener noreferrer”>Register</a> 
+  <!--<a class="buy-tickets scrollto" href="registration-closed" target="_blank" rel=“noopener noreferrer”>Register</a> -->
 
     </div>
   </header><!-- End Header -->
