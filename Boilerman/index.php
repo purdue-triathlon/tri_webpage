@@ -58,13 +58,13 @@
               <h3>Pricing</h3>
               <p><i>In addition to your race registration, a valid USA Triathlon Membership is required to race in Boilerman.</i></p>
               <p><u>USAT Membership</u></p>
-              <p>One-day membership: $15 per person (purchase with your Boilerman registration)</p>
+              <p>One-day membership: $18 per person (purchase with your Boilerman registration)</p>
               <p>Annual membership: Price varies by age (purchase on the <a href="https://www.usatriathlon.org/membership" target="_blank" rel=“noopener noreferrer”>USAT website</a>)</p>
               <p> Online registration will close 9/25. To sign up after 9/25, you must sign up in person and pay with cash.</p>
               <br>
               <p><u>Boilerman Registration: Early Bird Pricing (Open to 9/1)</u></p>
               <p>Collegiate: $80</p>
-              <p>Age Group: $100</p>
+              <p>Age Group: $90</p>
               <p>Collegiate Relay: $100 per team</p>
               <p>Age Group Relay: $115 per team </p>
               <br> 
